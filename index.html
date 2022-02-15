@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dae8e81f35.js" crossorigin="anonymous"></script>
+    <title>Sample Page</title>
+</head>
+
+<body>
+
+    <!-- Non-Responsive Menu -->
+    <div class="navbarBg">
+        <div class="menuElements">
+            <span class="menuElement" onclick="location.href='#';">Homepage</span>
+            <span class="menuElement" onclick="location.href='#cardDiv';">About us</span>
+            <span class="menuElement" onclick="location.href='#imgDiv-2';">Services</span>
+            <span class="menuElement" onclick="location.href='#contactUsForm';">Contact</span>
+        </div>
+    </div>
+    <span class="menuToggleButton"><i class="fas fa-bars openIcon"></i></span>
+    <span class="menuToggleButtonClose appear"><i class="fas fa-minus closeIcon"></i></span>
+    <div class="mobileNavbarBgClose" id="mobileMenu">
+        <div class="mobileMenuElements">
+            <span class="mobileMenuElement" onclick="location.href='#';">Homepage</span>
+            <span class="mobileMenuElement" onclick="location.href='#cardDiv';">About us</span>
+            <span class="mobileMenuElement" onclick="location.href='#imgDiv-2';">Services</span>
+            <span class="mobileMenuElement" onclick="location.href='#contactUsForm';">Contact</span>
+        </div>
+    </div>
+
+
+    <div class="imgDiv">
+        <span><img src="images/first-image.jpg" alt="first-image" class="first-image">
+            <span class="firstImgHeader">CONQUER</span>
+            <span class="firstImageContent">Simple Website Project</span>
+        </span>
+    </div>
+
+    <div id="cardDiv" class="cardDiv">
+        <div class="cards">
+            <div class="card">
+                <img src="images/cardImg-1.jpg" alt="" class="cardImg">
+                <p class="cardHeader-1">Bootstrap v3.3.6</p>
+                <p class="cardText">Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at
+                    risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis
+                    lectus magna, ornare ac scelerisque.</p>
+                <button class="btn btn-success cardBtn">Read More</button>
+            </div>
+            <div class="card">
+                <img src="images/cardImg-2.webp" alt="" class="cardImg">
+                <p class="cardHeader-2">Responsive Design</p>
+                <p class="cardText">Conquer Template is provided by TemplateMo for free of charge. You can use this
+                    template for any kind of website. No credit link is required. All images by Unsplash. Thank you for
+                    visiting our website. Please come again!</p>
+                <button class="btn btn-primary cardBtn">Button Blue</button>
+            </div>
+            <div class="card">
+                <img src="images/cardImg-3.webp" alt="" class="cardImg">
+                <p class="cardHeader-3">Parallax Layout</p>
+                <p class="cardText">Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at
+                    risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis
+                    lectus magna, ornare ac scelerisque.</p>
+                <button class="btn btn-danger cardBtn">Button Red</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="secondCardDiv">
+        <div class="secondCards">
+            <div class="secondCard">
+                <img src="images/cardImg-4.webp" alt="" class="cardImg">
+                <p class="cardHeader-4">Two Column Left Side</p>
+                <p class="cardText-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros
+                    maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius
+                    suscipit. Sed in leo sit amet velit finibus pretium.
+
+                    Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt
+                    massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in
+                    blandit metus.</p>
+                <button class="cardBtn-2">Read More</button>
+            </div>
+            <div class="secondCard">
+                <img src="images/cardImg-5.webp" alt="" class="cardImg">
+                <p class="cardHeader-5">Two Column Right Side</p>
+                <p class="cardText-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros
+                    maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius
+                    suscipit. Sed in leo sit amet velit finibus pretium.
+
+                    Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt
+                    massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in
+                    blandit metus.</p>
+                <button class="cardBtn-2">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div id="imgDiv-2" class="imgDiv-2">
+        <img src="images/second-image.jpg" alt="second-image" class="secondImage"><span class="imgTextHeader">Our
+            Services</span><span class="imgTextContent">Nunc diam leo, fringilla vulputate elit lobortis, consectetur
+            vestibulum quam. Sed id
+            felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia.
+            Etiam a mi quis arcu varius condimentum.</span>
+    </div>
+    <div class="cardDiv-3">
+        <div class="thirdCards">
+            <div class="thirdCard">
+                <img src="images/cardImg-6.jpg" alt="cardImg-6" class="cardImg-3">
+                <p class="cardHeader-6">One Big Column</p>
+                <p class="cardText-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor eros eget eros
+                    maximus, ut cursus sem euismod. Donec iaculis tristique odio at consectetur. Nullam dignissim varius
+                    suscipit. Sed in leo sit amet velit finibus pretium. Vivamus dictum nisi ac fermentum interdum.
+                    Vestibulum vel mauris at erat mattis accumsan et ac lorem. Cras non venenatis orci, sed tincidunt
+                    massa. Duis nisl lectus, auctor eu sodales at, dignissim eu orci. Sed vitae venenatis magna, in
+                    blandit metus. Praesent volutpat cursus rhoncus. Aenean arcu diam, suscipit ac neque in,
+                    sollicitudin convallis orci.
+
+                    Fusce eu porta massa, sed tincidunt turpis. Cum sociis natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Vivamus a urna tellus. Integer pharetra vitae nisi et lacinia. Morbi
+                    sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper
+                    auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna,
+                    ornare ac scelerisque quis, maximus eget nisi.</p>
+                <button class="cardBtn-3">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div id="contactUsForm" class="contactFormDiv">
+        <img src="images/contactFormImg.jpg" alt="contactForm" class="contactFormImg">
+        <span class="contactFormHeader">Contact Form</span>
+
+        <form action="" class="contactForm">
+            <div class="inputAreas"> <input type="text" class="nameInput" placeholder="Name">
+                <input type="email" name="" id="" class="emailInput" placeholder="Email">
+                <input type="text" class="subjectInput" placeholder="Subject">
+            </div>
+            <div class="textAreaDiv"> <textarea name="" id="" cols="30" rows="5" class="formTextArea"
+                    placeholder="Please enter your message here."></textarea>
+                <button class="cardBtn-4" onclick="location.href='#'">Submit</button>
+            </div>
+
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="js/menu.js"></script>
+
+</body>
+
+</html>

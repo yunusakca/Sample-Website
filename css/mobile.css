@@ -1,0 +1,236 @@
+@media only screen and (max-width: 640px) {
+    .disappear {
+        display: block;
+    }
+
+    .appear {
+        display: none;
+    }
+
+    .navbarBg {
+       display: none;
+    }
+
+    .mobileNavbarBgClose {
+        display: none;
+    }
+
+    .menuToggleButton {
+        background-color:#4682B4;
+        border-radius: 10px;
+        position: fixed;
+        z-index: 10;
+        right: 10px;
+        top: 10px;
+    }
+    
+    .openIcon {
+        padding: 10px;
+    }
+
+    .menuToggleButtonClose {
+        background-color:#4682B4;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: fixed;
+        z-index: 10;
+        right: 10px;
+        top: 10px;
+    }
+    
+    .closeIcon {
+        padding: 10px;
+    }
+
+    .mobileNavbarBgOpen {
+        background-color: #4682B4;
+        position: fixed;
+        z-index: 10;
+        right: 10px;
+        top: 40px;
+        border-radius: 10px;
+        border-top-right-radius: 0;
+    }
+
+    .mobileMenuElements {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+
+    .mobileMenuElement {
+        padding: 10px;
+        color: white;
+    }
+
+    .cardImg {
+        width: 100%;
+    }
+
+    .secondImage {
+        width: 100%;
+        height: 200px;
+    }
+    .first-image {
+        height: 300px;
+    }
+
+    .firstImgHeader {
+        color: white;
+        text-shadow: 2px 2px #000;
+        font-size: 50px;
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .firstImageContent {
+        color: white;
+        box-shadow: #000;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .cardDiv {
+        width: 100%;
+
+    }
+
+    .cards {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin-top:10px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .secondCardDiv {
+        width: 100%;
+    }
+    
+    .secondCards {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 10px;
+    }
+    
+    .secondCard {
+        width: 100%;
+        border: 1px solid rgba(0,0,0,.125);
+        margin-top:10px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cardBtn-2 {
+        width: 50%;
+    }
+
+    .cardDiv-3 {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .thirdCards {
+        display: block;
+        margin-top:10px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 10px;
+    }
+    
+    .cardImg-3{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 100%;
+    }
+    
+    .thirdCard {
+        width: 100%;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        margin-top:10px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .contactFormImg {
+        width: 100%;
+        height: 255px;
+    }
+
+    .imgTextHeader {
+        font-size: 40px;
+        top: 10%;
+    }
+    
+    .imgTextContent {
+        font-size: 15px;
+        top: 38%;
+        width: 100%;
+        left: 0;
+
+    }
+
+    .cardBtn-3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 0;
+        display: block;
+        width: 50%;
+        background-color: #646d7c;
+        color: white;
+        box-shadow: none;
+        border: 1px solid gray;
+        border-radius: 10px;
+        transition: all 0.3s ease-out;
+    }
+
+    .contactFormHeader {
+        font-size: 30px;
+        top: 1%;
+    }
+
+    .contactForm {
+        top: 20%;
+        display:block;
+    }
+
+    .inputAreas{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .formTextArea {
+        height: 70px;
+    }
+
+    .cardBtn-4{
+        padding: 2px 0;
+        margin-bottom: 5px;
+    }
+}

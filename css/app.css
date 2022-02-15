@@ -1,0 +1,376 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.disappear {
+    display: none;
+}
+
+.appear {
+    display: none;
+}
+
+.mobileNavbarBg {
+    display: none;
+}
+
+.navbarBg {
+    width: 100%;
+    height: 77px;
+    background-color: #383E4C;
+    display: grid;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+.menuElements {
+    width: 100%;
+    text-align: center;
+}
+
+.menuElement {
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 1px solid #646d7c;
+    margin: 15px;
+    transition: all 0.3s ease;
+}
+
+.menuElement:hover {
+    background-color:  	rgba(255,255,255,0.2);
+    cursor: pointer;
+}
+
+.first-image {
+    width: 100%;
+    height: 700px;
+}
+
+.firstImgHeader {
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 2px #000;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.firstImageContent {
+    color: white;
+    box-shadow: #000;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cardDiv {
+    width: 75%;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    margin: 10px;
+}
+
+.card {
+    width: 33.3%;
+    margin: 10px;
+}
+
+.cardHeader-1 {
+    color: #178A27;
+    font-size: 20px;
+    padding: 5px 20px;
+    font-weight: 700;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif !important;
+}
+
+.cardHeader-2 {
+    color: #1686C1;
+    font-size: 20px;
+    padding: 5px 20px;
+    font-weight: 700;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif !important;
+}
+
+.cardImg {
+	width:100%;
+}
+
+.cardHeader-3 {
+    color: #666;
+    font-size: 20px;
+    padding: 5px 20px;
+    font-weight: 700;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif !important;
+}
+
+.cardText {
+    padding: 0 20px;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif !important;
+    margin-bottom: auto;
+}
+
+.cardBtn {
+    width: 50%;
+    align-self: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.secondCardDiv {
+    width: 75%;
+    margin: auto;
+}
+
+.secondCards {
+    display: flex;
+    margin: 10px;
+    
+}
+
+.secondCard {
+    width: 50%;
+    margin: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.cardHeader-4 {
+    color: #666;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 20px;
+    font-weight: 700;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif !important;
+}
+
+.cardHeader-5 {
+    color: #666;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 20px;
+    font-weight: 700;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif !important;
+}
+
+.cardText-2 {
+    padding: 0 20px;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif !important;
+    margin-bottom: auto;
+}
+
+.cardBtn-2 {
+    padding: 10px 0;
+    display: grid;
+    width: 25%;
+    align-self: center;
+    margin: 10px auto;
+    background-color: #646d7c;
+    color: white;
+    box-shadow: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.cardBtn-2:hover {
+    cursor: pointer;
+    background-color: rgb(211,211,211,5);
+    color: #000;
+}
+
+.imgDiv-2 {
+    width: 100%;
+    z-index: 0;
+    position:relative;
+}
+
+.imgTextHeader{
+    text-shadow: 2px 2px #000;
+    color: white;
+    font-size: 70px;
+    box-shadow: #000;
+    top: 30%;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    width: 100%
+}
+
+.imgTextContent {
+    color: white;
+    font-size: 20px;
+    top: 55%;
+    left: 25%;
+    position:absolute;
+    text-align:center;
+    width: 50%
+}
+
+.cardDiv-3 {
+    width: 75%;
+    margin: auto;
+}
+
+.thirdCards {
+    display: flex;
+}
+
+.cardImg-3{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	width: 100%;
+}
+
+.thirdCard {
+    width: 100%;
+    margin: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+.cardHeader-6 {
+    color: #666;
+    font-size: 20px;
+    padding: 5px 20px;
+    font-weight: 700;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif !important;
+}
+
+.cardText-3 {
+    padding: 0 20px;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif !important;
+    margin-bottom: auto;
+}
+
+.cardBtn-3 {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    display: grid;
+    width: 10%;
+    background-color: #646d7c;
+    color: white;
+    box-shadow: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.cardBtn-3:hover {
+    cursor: pointer;
+    background-color: rgb(211,211,211,5);
+    color: #000;
+}
+
+.contactFormDiv {
+    width: 100%;
+    z-index: 0;
+    position:relative;
+}
+
+.contactFormHeader {
+    text-shadow: 2px 2px #000;
+    color: white;
+    font-size: 50px;
+    box-shadow: #000;
+    top: 10%;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    width: 100%
+}
+
+.contactForm {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.inputAreas{
+    width: 15%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.nameInput {
+    background-color: rgba(211,211,211,0.8);
+    border: 1px solid white;
+    padding-left: 5px;
+}
+
+.emailInput {
+    background-color: rgba(211,211,211,0.8);
+    border: 1px solid white;
+    padding-left: 5px;
+}
+
+.subjectInput {
+    background-color: rgba(211,211,211,0.8);
+    border: 1px solid white;
+    padding-left: 5px;
+}
+
+.textAreaDiv{
+    position: relative;
+}
+
+.formTextArea {
+    background-color: rgba(211,211,211,0.8);
+    border: 1px solid white;
+    padding-left: 5px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    margin-left: 20px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    margin-left: 20px;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    margin-left: 20px;
+  }
+
+
+
+  .cardBtn-4 {
+    justify-self: center;
+    width: 50%;
+    padding: 5px 0;
+    background-color: rgb(211,211,211,5);
+    
+    color: black;
+    box-shadow: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+    margin-top: 5px;
+}
+
+.cardBtn-4:hover {
+    cursor: pointer;
+    background-color: #646d7c;
+    color: white;
+}
